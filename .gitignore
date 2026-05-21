@@ -1,0 +1,49 @@
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+
+# --- Virtual environments ---
+venv/
+env/
+movieapp/
+.movieapp/
+*.env/
+
+# --- Environment variables ---
+.env
+.env.*
+*.env.local
+
+# --- SQLite database ---
+*.db
+*.sqlite
+*.sqlite3
+
+# --- Logs ---
+*.log
+logs/
+
+# --- Cache & build artifacts ---
+.cache/
+.ipynb_checkpoints/
+dist/
+build/
+*.egg-info/
+
+# --- Streamlit ---
+.streamlit/secrets.toml
+.streamlit/*.lock
+.streamlit/cache/
+
+# --- VS Code ---
+.vscode/
+
+# --- OS files ---
+.DS_Store
+Thumbs.db
+
+# --- Scraper outputs (optional) ---
+scrapers/output/
